@@ -1,0 +1,29 @@
+name: slideshow
+recipe: drupal8
+
+config:
+  webroot: web
+  xdebug: true
+  drush: "*"
+
+services:
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+    portforward: 1025
+
+  database:
+    type: mysql:5.7
+
+  cache:
+    type: memcached:1.4
+    mem: 128
+    portforward: 11222
+
+proxy:
+  appserver:
+    - "slideshow.lndo.site"
+    - "*.slideshow.lndo.site"
+    - "solr.slideshow.lndo.site"
+    - "memcached.slideshow.lndo.site"
