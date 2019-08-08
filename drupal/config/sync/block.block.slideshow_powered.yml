@@ -1,0 +1,22 @@
+uuid: 6ed3f7c5-28c6-4aa1-b713-eabf391dc1bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slideshow
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: slideshow_powered
+theme: slideshow
+region: content
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

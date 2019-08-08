@@ -1,0 +1,22 @@
+uuid: b53c6e73-b865-4c6f-ad47-1098f9c4cd13
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - slideshow
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: slideshow_help
+theme: slideshow
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

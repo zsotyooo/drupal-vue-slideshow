@@ -1,0 +1,22 @@
+uuid: e37c7d6c-aa39-4bed-bf7f-95f4b811a59c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slideshow
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: slideshow_messages
+theme: slideshow
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

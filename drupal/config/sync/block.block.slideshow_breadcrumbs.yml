@@ -1,0 +1,22 @@
+uuid: a3ed3706-aa0d-409c-b904-49fadc342d74
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slideshow
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: slideshow_breadcrumbs
+theme: slideshow
+region: content
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

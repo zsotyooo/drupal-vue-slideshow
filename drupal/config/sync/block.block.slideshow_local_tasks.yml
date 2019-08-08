@@ -1,0 +1,22 @@
+uuid: 33cdc49f-4794-4af5-a82f-b1b4a7734a52
+langcode: en
+status: true
+dependencies:
+  theme:
+    - slideshow
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: slideshow_local_tasks
+theme: slideshow
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

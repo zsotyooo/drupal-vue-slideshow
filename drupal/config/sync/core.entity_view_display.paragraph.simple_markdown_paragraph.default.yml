@@ -1,0 +1,20 @@
+uuid: b0a1148f-c5c7-453b-a9c7-c98418b31112
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.simple_markdown_paragraph.field_long_plain_text
+    - paragraphs.paragraphs_type.simple_markdown_paragraph
+id: paragraph.simple_markdown_paragraph.default
+targetEntityType: paragraph
+bundle: simple_markdown_paragraph
+mode: default
+content:
+  field_long_plain_text:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

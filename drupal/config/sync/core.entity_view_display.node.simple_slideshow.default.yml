@@ -1,0 +1,30 @@
+uuid: 0a7caf76-712f-4387-8a35-82fc9a1e1320
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.simple_slideshow.field_simple_slides
+    - node.type.simple_slideshow
+  module:
+    - entity_reference_revisions
+    - user
+id: node.simple_slideshow.default
+targetEntityType: node
+bundle: simple_slideshow
+mode: default
+content:
+  field_simple_slides:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

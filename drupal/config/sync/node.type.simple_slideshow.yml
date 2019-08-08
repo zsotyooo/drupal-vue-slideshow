@@ -1,0 +1,17 @@
+uuid: 63090dcb-0b2d-47bd-aa88-1fc6ccff3471
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Simple slideshow'
+type: simple_slideshow
+description: 'Use this to create a simple basic slider with markdown.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

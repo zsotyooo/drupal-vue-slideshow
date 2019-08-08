@@ -1,0 +1,9 @@
+styles:
+  version: 0.1
+  css:
+    theme:
+      dist/css/app.css: {}
+
+scripts:
+  js:
+    dist/app.js: {scope: footer}

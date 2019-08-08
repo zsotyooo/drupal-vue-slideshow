@@ -1,0 +1,6 @@
+slideshow.all:
+  label: all
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+  - 1x

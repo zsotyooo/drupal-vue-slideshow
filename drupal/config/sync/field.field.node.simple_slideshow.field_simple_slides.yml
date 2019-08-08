@@ -1,0 +1,31 @@
+uuid: 46d80804-953f-4c84-9970-d7e97214f9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_simple_slides
+    - node.type.simple_slideshow
+    - paragraphs.paragraphs_type.simple_markdown_paragraph
+  module:
+    - entity_reference_revisions
+id: node.simple_slideshow.field_simple_slides
+field_name: field_simple_slides
+entity_type: node
+bundle: simple_slideshow
+label: 'Simple Slides'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      simple_markdown_paragraph: simple_markdown_paragraph
+    target_bundles_drag_drop:
+      simple_markdown_paragraph:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

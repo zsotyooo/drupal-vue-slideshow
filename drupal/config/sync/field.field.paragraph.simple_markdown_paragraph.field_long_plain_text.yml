@@ -1,0 +1,19 @@
+uuid: 82926305-68b5-4f2a-a4df-3e9f4fb63180
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_long_plain_text
+    - paragraphs.paragraphs_type.simple_markdown_paragraph
+id: paragraph.simple_markdown_paragraph.field_long_plain_text
+field_name: field_long_plain_text
+entity_type: paragraph
+bundle: simple_markdown_paragraph
+label: 'Long plain text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

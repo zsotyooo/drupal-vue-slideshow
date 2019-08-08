@@ -1,0 +1,20 @@
+uuid: ebc738db-4e31-42ec-a44b-cec71f633dd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.simple_slideshow
+  module:
+    - user
+id: node.simple_slideshow.teaser
+targetEntityType: node
+bundle: simple_slideshow
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

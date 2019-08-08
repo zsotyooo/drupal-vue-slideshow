@@ -1,0 +1,9 @@
+uuid: c052fd82-2dd2-44a1-8ffa-7d35d363daa8
+langcode: en
+status: true
+dependencies: {  }
+id: simple_markdown_paragraph
+label: 'Simple markdown paragraph'
+icon_uuid: null
+description: 'A simple paragraph with a text area where you can insert markdown code.'
+behavior_plugins: {  }

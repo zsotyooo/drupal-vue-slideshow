@@ -1,0 +1,22 @@
+uuid: 3bd0716a-c6ac-4f3c-95dd-7261605f8e55
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - node
+    - user
+    - webapp
+_core:
+  default_config_hash: 2JYtH8Ro4MPy4_-eSDo4_FMSKFWuRqbWVGTXl37LHwg
+id: webapp
+plugin_id: 'entity:node'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - webapp_json
+  authentication:
+    - basic_auth
+    - cookie
